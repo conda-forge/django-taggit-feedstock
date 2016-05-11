@@ -5,7 +5,7 @@ Home: http://github.com/alex/django-taggit/tree/master
 
 Package license: BSD License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: django-taggit is a reusable Django application for simple tagging.
 
