@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-taggit-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/django-taggit-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-taggit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-taggit-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-taggit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-taggit-feedstock/branch/master)
