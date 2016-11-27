@@ -1,7 +1,7 @@
 {% set name = "django-taggit" %}
 {% set version = "0.18.2" %}
 {% set md5 = "f98feddb5251f714dff930b2941df8b4" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 package:
     name: {{ name }}
@@ -32,7 +32,9 @@ test:
 
 about:
     home: http://github.com/alex/django-taggit/tree/master
-    license: BSD License
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
     summary: django-taggit is a reusable Django application for simple tagging.
 
 extra:

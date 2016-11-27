@@ -3,7 +3,7 @@ About django-taggit
 
 Home: http://github.com/alex/django-taggit/tree/master
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
