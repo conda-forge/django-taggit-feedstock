@@ -34,6 +34,7 @@ about:
     home: http://github.com/alex/django-taggit/tree/master
     license: BSD 3-Clause
     license_family: BSD
+    license_file: LICENSE
     summary: django-taggit is a reusable Django application for simple tagging.
 
 extra:
