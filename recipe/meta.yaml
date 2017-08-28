@@ -1,6 +1,6 @@
 {% set name = "django-taggit" %}
-{% set version = "0.18.2" %}
-{% set md5 = "f98feddb5251f714dff930b2941df8b4" %}
+{% set version = "0.22.1" %}
+{% set md5 = "dd582e2d67c1de20fd2e203584a9ffd4" %}
 {% set build = 1 %}
 
 package:
