@@ -23,6 +23,7 @@ requirements:
     run:
         - python
         - django >=1.4.5
+        - setuptools
 
 test:
     imports:
