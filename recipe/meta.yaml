@@ -29,7 +29,6 @@ test:
     imports:
         - taggit
         - taggit.migrations
-        - taggit.south_migrations
 
 about:
     home: http://github.com/alex/django-taggit/tree/master
