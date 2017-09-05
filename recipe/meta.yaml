@@ -20,10 +20,10 @@ requirements:
     build:
         - python
         - setuptools
+        - isort
     run:
         - python
         - django >=1.4.5
-        - isort
 
 test:
     imports:
