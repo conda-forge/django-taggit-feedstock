@@ -1,7 +1,7 @@
 {% set name = "django-taggit" %}
 {% set version = "0.22.2" %}
 {% set md5 = "9a91a7df4101858654700f7950159d3f" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 
 package:
@@ -14,8 +14,9 @@ source:
     md5: {{ md5 }}
 
 build:
+    noarch: python
     number: {{ build }}
-    script: python setup.py install --single-version-externally-managed --record=record.txt
+    script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
     build:
