@@ -14,14 +14,16 @@ Summary: django-taggit is a reusable Django application for simple tagging.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-taggit-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-taggit-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-taggit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-taggit-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-taggit-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-taggit-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/django-taggit-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/django-taggit-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/django-taggit-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/django-taggit-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/django-taggit-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/django-taggit-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-taggit/badges/version.svg)](https://anaconda.org/conda-forge/django-taggit)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-taggit/badges/downloads.svg)](https://anaconda.org/conda-forge/django-taggit)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-django--taggit-green.svg)](https://anaconda.org/conda-forge/django-taggit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/django-taggit.svg)](https://anaconda.org/conda-forge/django-taggit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/django-taggit.svg)](https://anaconda.org/conda-forge/django-taggit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/django-taggit.svg)](https://anaconda.org/conda-forge/django-taggit) |
 
 Installing django-taggit
 ========================
