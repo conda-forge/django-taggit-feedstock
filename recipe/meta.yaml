@@ -1,43 +1,39 @@
-{% set name = "django-taggit" %}
-{% set version = "0.22.2" %}
-{% set md5 = "9a91a7df4101858654700f7950159d3f" %}
-{% set build = 0 %}
-
+{% set version = "0.23.0" %}
 
 package:
-    name: {{ name }}
-    version: {{ version }}
+  name: django-taggit
+  version: {{ version }}
 
 source:
-    fn: {{ name }}-{{ version }}.tar.gz
-    url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    md5: {{ md5 }}
+  url: https://pypi.io/packages/source/d/django-taggit/django-taggit-{{ version }}.tar.gz
+  sha256: a21cbe7e0879f1364eef1c88a2eda89d593bf000ebf51c3f00423c6927075dce
 
 build:
-    number: {{ build }}
-    script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-    build:
-        - python
-        - setuptools
-        - isort
-    run:
-        - python
-        - django >=1.4.5
+  host:
+    - python
+    - pip
+    - isort
+  run:
+    - python
+    - django >=1.4.5
 
 test:
-    imports:
-        - taggit
-        - taggit.migrations
+  imports:
+    - taggit
+    - taggit.migrations
 
 about:
-    home: http://github.com/alex/django-taggit/tree/master
-    license: BSD 3-Clause
-    license_family: BSD
-    license_file: LICENSE
-    summary: django-taggit is a reusable Django application for simple tagging.
+  home: http://github.com/alex/django-taggit/tree/master
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: django-taggit is a reusable Django application for simple tagging.
 
 extra:
-    recipe-maintainers:
-        - kwilcox
+  recipe-maintainers:
+    - kwilcox
