@@ -3,13 +3,11 @@ About django-taggit
 
 Home: http://github.com/alex/django-taggit/tree/master
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-taggit-feedstock/blob/master/LICENSE.txt)
 
 Summary: django-taggit is a reusable Django application for simple tagging.
-
-
 
 Current build status
 ====================
@@ -117,4 +115,5 @@ Feedstock Maintainers
 =====================
 
 * [@kwilcox](https://github.com/kwilcox/)
+* [@marcelotrevisani](https://github.com/marcelotrevisani/)
 
