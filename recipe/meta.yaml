@@ -11,25 +11,28 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
-    - isort
   run:
-    - python
-    - django >=1.4.5
+    - python >=3.5
+    - django >=1.11
 
 test:
   imports:
     - taggit
     - taggit.migrations
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://github.com/alex/django-taggit/tree/master
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: django-taggit is a reusable Django application for simple tagging.
@@ -37,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - kwilcox
+    - marcelotrevisani
