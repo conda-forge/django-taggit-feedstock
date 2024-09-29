@@ -1,4 +1,4 @@
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: django-taggit
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-taggit/django_taggit-{{ version }}.tar.gz
-  sha256: 723d98bd5c536daa3c0e1bdae0965f7005a9b15269816bb4053fafec4ebad57e
+  sha256: c4d1199e6df34125dd36db5eb0efe545b254dec3980ce5dd80e6bab3e78757c3
 
 build:
   number: 0
