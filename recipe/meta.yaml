@@ -9,7 +9,7 @@ source:
   sha256: c4d1199e6df34125dd36db5eb0efe545b254dec3980ce5dd80e6bab3e78757c3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,7 +19,7 @@ requirements:
     - pip
   run:
     - python >=3.5
-    - django >=1.11
+    - django >=4.1
 
 test:
   imports:
